@@ -1,0 +1,16 @@
+<div class="card text-center">
+  <div class="card-header">
+    <h1>{{ordi.marque}}</h1>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Modèle: {{ordi.modele}}</h5>
+    <p class="card-text">Type: {{ordi.type}}</p>
+    <p class="card-text">Catégorie: {{ordi.category}}</p>
+    <h4>Prix: {{(ordi.prixVente).toFixed(2)}} euros ttc</h4>
+
+  </div>
+  <div class="card-footer text-muted">
+    <p>Date d'entrée en stock: {{ordi.dateEntreStock | date:"dd/MM/yyy"}}</p>
+    <a class="btn btn-danger" [routerLink]="['/home']">Retout accueil</a>
+  </div>
+</div>
