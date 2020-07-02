@@ -11,34 +11,24 @@
       "dateEntreStock": " 2012-04-23T18:25:43.511Z"
     },
     {
-      "id": 2,
-      "modele": "vostro",
+      "id": 7,
+      "modele": "mac",
+      "marque": "Apple",
+      "type": "Tablette hybride",
+      "category": "Premier prix",
+      "prixAchat": 423,
+      "prixVente": 420,
+      "dateEntreStock": "2020-07-02T16:15:00.130Z"
+    },
+    {
+      "id": 8,
+      "modele": "Vostro",
       "marque": "Dell",
       "type": "Portable",
-      "category": "Bureautique",
-      "prixAchat": 500,
-      "prixVente": 1000,
-      "dateEntreStock": "2020-07-07"
-    },
-    {
-      "id": 4,
-      "modele": "super ordi",
-      "marque": "Asus",
-      "type": "Fixe",
-      "category": "Bureautique",
-      "prixAchat": 217,
-      "prixVente": 365,
-      "dateEntreStock": "2020-07-02T13:52:43.215Z"
-    },
-    {
-      "id": 6,
-      "modele": "pccool",
-      "marque": "HP",
-      "type": "Tablette hybride",
       "category": "Gaming",
-      "prixAchat": 99.65,
-      "prixVente": 287.12,
-      "dateEntreStock": "2020-07-02T15:08:36.422Z"
+      "prixAchat": 480,
+      "prixVente": 655,
+      "dateEntreStock": "2020-07-02T16:32:44.350Z"
     }
   ]
 }

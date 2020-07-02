@@ -1,3 +1,5 @@
+<h1>Détail du produit {{ordi.modele}} {{ordi.marque}}</h1>
+
 <div class="card text-center">
   <div class="card-header">
     <h1>{{ordi.marque}}</h1>
@@ -12,5 +14,6 @@
   <div class="card-footer text-muted">
     <p>Date d'entrée en stock: {{ordi.dateEntreStock | date:"dd/MM/yyy"}}</p>
     <a class="btn btn-danger" [routerLink]="['/home']">Retour accueil</a>
+    <a class="btn btn-danger"[routerLink]="['/home']" (click)="suprimOrdi(ordi.id)">supprimer</a>
   </div>
 </div>

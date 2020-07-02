@@ -12,6 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AjoutOrdinateurComponent } from './components/ajout-ordinateur/ajout-ordinateur.component';
 import { ModifOrdinateurComponent } from './components/modif-ordinateur/modif-ordinateur.component';
 import { DetailOrdinateurComponent } from './components/detail-ordinateur/detail-ordinateur.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DetailOrdinateurComponent } from './components/detail-ordinateur/detail
     HomeComponent,
     AjoutOrdinateurComponent,
     ModifOrdinateurComponent,
-    DetailOrdinateurComponent
+    DetailOrdinateurComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

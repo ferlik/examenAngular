@@ -24,7 +24,7 @@
       <td>{{item.marque}}</td>
       <td>{{item.type}}</td>
       <td>{{item.category}}</td>
-      <td>{{(item.prixVente-item.prixAchat).toFixed(2)}}</td>
+      <td>{{(item.prixVente-item.prixAchat).toFixed(2)}} €</td>
       <td>{{item.dateEntreStock | date:"dd/MM/yyyy"}}</td>
       <td><a class="btn btn-danger" [routerLink]="['/ordi',item.id]">Voir le détail du PC: {{item.marque}}</a></td>
       <td><a class="btn btn-danger" (click)="suprimOrdi(item.id)">supprimer</a></td>
