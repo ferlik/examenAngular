@@ -1,0 +1,30 @@
+
+
+h1{
+  text-align: center;
+  text-decoration:underline;
+}
+
+form{
+  width: 60%;
+  border:1px solid black;
+  margin-left: 25%;
+  background-color: grey;
+}
+
+.form-control{
+  margin-left: 1rem;
+  width:40%;
+  border:1px solid black;
+}
+label{
+  color: black;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.btn {
+  margin-left: 20rem;
+  width: 10rem;
+}
+

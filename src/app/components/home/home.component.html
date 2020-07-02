@@ -13,6 +13,7 @@
       <th scope="col">Date d'entrée en stock</th>
       <th scope="col">Caractéristique</th>
       <th scope="col">Supprimer</th>
+      <th scope="col">Modifier</th>
 
     </tr>
   </thead>
@@ -27,6 +28,7 @@
       <td>{{item.dateEntreStock | date:"dd/MM/yyyy"}}</td>
       <td><a class="btn btn-danger" [routerLink]="['/ordi',item.id]">Voir le détail du PC: {{item.marque}}</a></td>
       <td><a class="btn btn-danger" (click)="suprimOrdi(item.id)">supprimer</a></td>
+      <td><a class="btn btn-danger"  [routerLink]="['/ordi/modif',item.id]">modifier</a></td>
       </tr>
 
   </tbody>
